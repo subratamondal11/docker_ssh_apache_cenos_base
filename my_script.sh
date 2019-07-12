@@ -1,8 +1,16 @@
 #!/bin/bash
 
 # start ssh and http service
+
+rm -rf /run/httpd
+
+mkdir /run/httpd
+chown root:apache /run/httpd
+chmod 0710 /run/httpd
+
+/usr/sbin/httpd -k start
 /usr/sbin/sshd
-/usr/sbin/httpd
+
 
 while true
 do

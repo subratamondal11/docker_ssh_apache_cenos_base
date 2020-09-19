@@ -1,3 +1,7 @@
+# Dillinger
+
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+
 # docker_ssh_apache_cenos_base
 
 ## docker_ssh_apache
@@ -5,19 +9,21 @@
 create a docker image with ssh connectivity and a webserver with uptime
 
 ### run docker image
+docker pull subratamondal11/centos_ssh_httpd_timecounter
+
 docker run -d subratamondal11/centos_ssh_httpd_timecounter
 
-### Details:
-user1 will be created with password 1234 (change the password after 1st login)
+Related Docker page [Docker Page](https://hub.docker.com/r/subratamondal11/centos_ssh_httpd_timecounter).
 
-\# user1 has sudo access
+### Details:
+- user1 will be created with password 1234 (change the password after 1st login)
+- user1 has sudo access
 
 #
 #### Steps for manual:
 
 ##### pull the repo
-git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
-
+\# git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
 \# cd docker_ssh_apache
 
 ##### create docker image (dont forget the . in end of the command)

@@ -22,27 +22,22 @@ Related Docker page [Docker Page](https://hub.docker.com/r/subratamondal11/cento
 
 > pull the repo
 - git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
-
-\# cd docker_ssh_apache
+- cd docker_ssh_apache
 
 > create docker image (dont forget the . in end of the command)
-
-\# docker build -t centos_ssh_apache .
+- docker build -t centos_ssh_apache .
 
 
 > run the image in a container
-
-\# docker run -d centos_ssh_apache
+- docker run -d centos_ssh_apache
 
 
 > view container ID
-
-\# docker ps
+- docker ps
 
 
 > view IP of the running container
-
-\# docker inspect <containerID> | grep IP
+- docker inspect <containerID> | grep IP
 
 
 ##### do ssh or browse the IP from a browser

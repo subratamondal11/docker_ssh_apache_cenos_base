@@ -2,18 +2,22 @@
 
 ## docker_ssh_apache
 
-create a docker image with ssh and apache2 services with CentOS base
+create a docker image with ssh connectivity and a webserver with uptime
+
+### run docker image
+docker run -d subratamondal11/centos_ssh_httpd_timecounter
 
 ### Details:
 user1 is created, password is 1234
-
 user1 has sudo access
 
-#### Steps:
 
-#### download the repository in a directory
+#### Steps for manual:
 
-#### cd to the repository directory
+##### pull the repo
+git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
+
+###### cd to the repository directory
 cd docker_ssh_apache
 
 #### create docker image (dont forget the . in end of the command)

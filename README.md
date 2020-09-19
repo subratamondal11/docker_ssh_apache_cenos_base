@@ -11,7 +11,7 @@ docker pull subratamondal11/centos_ssh_httpd_timecounter
 
 docker run -d subratamondal11/centos_ssh_httpd_timecounter
 
-Related Docker page [Docker Page](https://hub.docker.com/r/subratamondal11/centos_ssh_httpd_timecounter).
+Related [Docker Page](https://hub.docker.com/r/subratamondal11/centos_ssh_httpd_timecounter).
 
 ### Details:
 - user1 will be created with password 1234 (change the password after 1st login)

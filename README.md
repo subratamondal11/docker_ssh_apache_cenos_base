@@ -9,6 +9,7 @@ docker run -d subratamondal11/centos_ssh_httpd_timecounter
 
 ### Details:
 user1 is created, password is 1234
+
 user1 has sudo access
 
 #

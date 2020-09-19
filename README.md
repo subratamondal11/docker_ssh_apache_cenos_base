@@ -21,8 +21,7 @@ Related Docker page [Docker Page](https://hub.docker.com/r/subratamondal11/cento
 ### Steps for manual:
 
 > pull the repo
-
-\# git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
+- git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
 
 \# cd docker_ssh_apache
 

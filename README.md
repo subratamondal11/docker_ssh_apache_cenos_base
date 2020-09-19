@@ -1,5 +1,3 @@
-# Dillinger
-
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 # docker_ssh_apache_cenos_base

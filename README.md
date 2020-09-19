@@ -16,6 +16,7 @@ user1 has sudo access
 
 ##### pull the repo
 git pull https://github.com/subratamondal11/docker_ssh_apache_cenos_base.git
+
 cd docker_ssh_apache
 
 #### create docker image (dont forget the . in end of the command)
